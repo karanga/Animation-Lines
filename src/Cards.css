@@ -1,0 +1,40 @@
+.cards {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        ". a b"
+        ". c c"
+        ". d e"
+        ;
+}
+
+.card1 {
+    grid-area: a;
+    background-color: white;
+}
+.card2 {
+    grid-area: b;
+    background-color: blue;
+}
+.card3 {
+    grid-area: c;
+    background-color: yellow;
+}
+.card4 {
+    grid-area: d;
+    background-color: green;
+}
+.card5 {
+    grid-area: e;
+    background-color: purple;
+}
+.cards li {
+    /* background-color: white; */
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "paper1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bezier-js": "^2.2.3",
+    "bezierjs": "^0.0.4",
+    "immutable": "^3.8.2",
+    "paper": "^0.11.5",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-motion": "^0.5.2",
+    "react-native-tween-animation": "^1.0.1",
+    "tweenjs": "^1.0.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
