@@ -24,7 +24,7 @@ App {
   margin:auto;
   border: 0px solid black;
   float: left;
-  cursor: crosshair;
+  /*cursor: crosshair;*/
 }
 
 .path {

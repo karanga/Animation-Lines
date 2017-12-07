@@ -18,15 +18,15 @@
 }
 .card2 {
     grid-area: b;
-    background-color: blue;
+    background-color: white;
 }
 .card3 {
     grid-area: c;
-    background-color: yellow;
+    background-color: white;
 }
 .card4 {
     grid-area: d;
-    background-color: green;
+    background-color: white;
 }
 .card5 {
     grid-area: e;

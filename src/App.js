@@ -8,6 +8,7 @@ import CircleView from './CircleView.js';
 import CircleSimple from './CircleSimple.js';
 import ADViewLogo from './ADViewLogo.js';
 import SmoothCurve from './SmoothCurve.js';
+import ADViewLogoColor from './ADViewLogoColor.js';
 
 class App extends Component {
   render() {
@@ -18,24 +19,24 @@ class App extends Component {
 
             <ul className="cards">
                 <li className="card1">
-                  card 1
+                 
                 {<ADViewLogo CanvasName = 'CircleView1' CircleColor='white'/>}
                 </li>
                 <li className="card2">
-                    <h2>Card 2 </h2>
-                    {<SmoothCurve CanvasName = "card2" CircleColor='purple'/>}
+                  
+                    {<ADViewLogoColor CanvasName = "card2" CircleColor='purple'/>}
                 </li>
                 
                 <li className="card3">
-                  <h2>Card 3 </h2>
+                 
                   {<PaperView CanvasName = "card3" CircleColor='purple'/>}
                 </li>
                 <li className="card4">
-                  <h2>Card 4</h2>
+                
                   {<CircleView CanvasName = "card4" CircleColor='purple'/>}
                 </li>
                 <li className="card5">
-                <h2>Card 5</h2>
+                
                 {<CircleView CanvasName = "card5" CircleColor='purple'/>}
                 </li>
                 
