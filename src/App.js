@@ -3,12 +3,14 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import './Cards.css';
-import PaperView from './PaperView.js';
-import CircleView from './CircleView.js';
-import CircleSimple from './CircleSimple.js';
-import ADViewLogo from './ADViewLogo.js';
-import SmoothCurve from './SmoothCurve.js';
-import ADViewLogoColor from './ADViewLogoColor.js';
+// import PaperView from './PaperView.js';
+// import CircleView from './CircleView.js';
+// import CircleSimple from './CircleSimple.js';
+// //import ADViewLogo from './ADViewLogo.js';
+// import SmoothCurve from './SmoothCurve.js';
+// import ADViewLogoColor from './ADViewLogoColor.js';
+
+import SquareView from './square.js';
 
 class App extends Component {
   render() {
@@ -20,9 +22,9 @@ class App extends Component {
             <ul className="cards">
                 <li className="card1">
                  
-                {<ADViewLogo CanvasName = 'CircleView1' CircleColor='white'/>}
+                  {<SquareView CanvasName = 'CircleView1' CircleColor='white'/>}
                 </li>
-                <li className="card2">
+                {/* <li className="card2">
                   
                     {<ADViewLogoColor CanvasName = "card2" CircleColor='purple'/>}
                 </li>
@@ -38,7 +40,7 @@ class App extends Component {
                 <li className="card5">
                 
                 {<CircleView CanvasName = "card5" CircleColor='purple'/>}
-                </li>
+                </li> */}
                 
                 
             </ul>
