@@ -6,19 +6,20 @@
     grid-template-columns: 150px 1fr 1fr;
     grid-gap: 10px;
     grid-template-areas:
-        "a a a"
-        /* ". c c"
-        ". d e" */
+        "a a a . ."
+         ". b . . ."
+        ". c c c c " 
+        ". . .  d ."
+        ". e e e e"
         ;
 }
 
 .card1 {
     grid-area: a;
-    background-color: white;
+    background-color: blue;
 }
 .card2 {
     grid-area: b;
-    background-color: white;
 }
 .card3 {
     grid-area: c;
@@ -26,7 +27,7 @@
 }
 .card4 {
     grid-area: d;
-    background-color: white;
+    background-color: green;
 }
 .card5 {
     grid-area: e;
